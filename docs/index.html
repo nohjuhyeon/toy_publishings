@@ -39,6 +39,7 @@
             display: grid;
             list-style-type: none;
             grid-template-columns: auto auto auto;
+            
         }
 
         .plan_name {
@@ -60,6 +61,27 @@
 
         table {
             border-collapse: collapse;
+        }
+        .free {
+            border-style: solid;
+            border-width: 0.1px;
+            border-color: gainsboro;
+        }
+        .pro {
+            border-style: solid;
+            border-width: 0.1px;
+            border-color: gainsboro;
+        }
+        .enterprise {
+            border-style: solid;
+            border-width: 0.1px;
+            border-color: gainsboro;
+        }
+        .free1 {
+            background-color: gainsboro;
+        }
+        .pro1 {
+            background-color: gainsboro;
         }
     </style>
 </head>
@@ -85,8 +107,8 @@
             </div>
         </div>
         <ul class="pricing_list">
-            <li>
-                <div>Free</div>
+            <li class="free">
+                <div class="free1">Free</div>
                 <div>$0/mo</div>
                 <div>10 users included</div>
                 <div>2 GB of storage</div>
@@ -96,8 +118,8 @@
                     <button type="submit">sign up for free</button>
                 </form>
             </li>
-            <li>
-                <div>Pro</div>
+            <li class="pro">
+                <div class="pro1">Pro</div>
                 <div>$15/mo</div>
                 <div>20 users included</div>
                 <div>10 GB of storage</div>
@@ -108,7 +130,7 @@
                 </form>
 
             </li>
-            <li>
+            <li class="enterprise">
                 <div>Enterprise</div>
                 <div>$29/mo</div>
                 <div>30 users included</div>
