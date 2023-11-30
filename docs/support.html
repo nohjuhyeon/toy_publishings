@@ -37,9 +37,10 @@
 
         .lower_contents {
             display: grid;
-            grid-template-columns: 70% 30%;
+            grid-template-columns: 70% 28%;
             text-align: left;
             padding-top: 30px;
+            justify-content: space-between;
         }
 
         .billing_address {}
@@ -68,6 +69,12 @@
             font-size: 20px;
             color: white;
             background-color: blue;
+        }
+
+        .carttable {
+            width: 100%;
+            border-collapse: collapse;
+            line-height: 30px;
         }
     </style>
 </head>
@@ -259,10 +266,10 @@
                 </div>
                 <div class="your-cart">
                     <div style="font-size: 33px; color: blue;">Your cart</div>
-                <table>
+                <table class="carttable">
                     <tr>
                         <td>
-                            <div>Product name</div>
+                            <div style="font-size: 20px;">Product name</div>
                             <div>Brief description</div>
                         </td>
                         <td style="text-align: right;">$12</td>
