@@ -1,0 +1,20 @@
+.footer {
+    margin-top: 40px;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.footer_name {
+    font-weight: bolder;
+}
+.footer_first {
+    font-weight: lighter;
+    color: gray;
+    padding: 3px;
+    font-size: 13px;    
+}
+.footer_list {
+    font-weight: lighter;
+    color: gray;
+    padding: 3px;
+}
