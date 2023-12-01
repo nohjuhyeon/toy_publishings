@@ -1,0 +1,25 @@
+.container {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+.btn {
+    font-size: 20px;   
+}
+
+.plans {
+    font-size: ;
+}
+
+
+.price_example {
+    text-align: left; font-size: 30px
+}
+
+a {
+    text-decoration-line: none;
+    color: black;
+}

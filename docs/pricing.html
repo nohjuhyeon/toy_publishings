@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./resources/css/footer.css">
+    <link rel="stylesheet" href="./resources/css/nav.css">
+    <style>
+        main {
+            display: grid;
+            text-align: center;
+        }
+
+        h1 {
+            font-weight: 500;
+            font-size: 50px;
+            margin: 10px;
+            color: black;
+            line-height: 50px;
+
+        }
+
+        .pricing {
+            display: grid;
+            width: 500px;
+            align-content: center;
+            margin: auto;
+            font-size: 15px;
+            color: dimgray;
+            font-weight: 400;
+            margin-top: 25px;
+            line-height: 25px;
+        }
+
+        .pricing_list {
+            display: grid;
+            list-style-type: none;
+            grid-template-columns: auto auto auto;
+            
+        }
+
+        .plan_name {
+            font-size: 35px;
+            margin-top: 30px; 
+            margin-bottom: 30px;
+        }
+
+        .compare_plans {
+            list-style-type: none;
+            display: grid;
+            margin-left: auto;
+            grid-template-columns: 200px 200px 200px;
+        }
+
+        .name {
+            text-align: left;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+        .free {
+            border-style: solid;
+            border-width: 0.1px;
+            border-color: gainsboro;
+        }
+        .pro {
+            border-style: solid;
+            border-width: 0.1px;
+            border-color: gainsboro;
+        }
+        .enterprise {
+            border-style: solid;
+            border-width: 0.1px;
+            border-color: gainsboro;
+        }
+        .free1 {
+            background-color: gainsboro;
+        }
+        .pro1 {
+            background-color: gainsboro;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="logo"><img src="./resources/images/bootstrap.jpg" alt="bootstrap logo" width="33px"> Pricing example
+        </div>
+        <div>
+            <ul class="nav">
+                <li>Features</li>
+                <li><a href="./support.html">Enterprise</a></li>
+                <li>Support</li>
+                <li>Pricing</li>
+            </ul>
+    </nav>
+    <hr style="margin-top: 3px; border-width:thin;" color="lightgray">
+    <main>
+        <div class="pricing">
+            <h1>Pricing</h1>
+            <div>Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s
+                built with default Bootstrap components and utilities with little customization.
+            </div>
+        </div>
+        <ul class="pricing_list">
+            <li class="free">
+                <div class="free1">Free</div>
+                <div>$0/mo</div>
+                <div>10 users included</div>
+                <div>2 GB of storage</div>
+                <div>Email support</div>
+                <div>Help center access</div>
+                <form action="" method="get">
+                    <button type="submit">sign up for free</button>
+                </form>
+            </li>
+            <li class="pro">
+                <div class="pro1">Pro</div>
+                <div>$15/mo</div>
+                <div>20 users included</div>
+                <div>10 GB of storage</div>
+                <div>Priority email support</div>
+                <div>>Help center access</div>
+                <form action="" method="get">
+                    <button type="submit">get started</button>
+                </form>
+
+            </li>
+            <li class="enterprise">
+                <div>Enterprise</div>
+                <div>$29/mo</div>
+                <div>30 users included</div>
+                <div>15 GB of storage</div>
+                <div>Phone and email support</div>
+                <div>Help center access</div>
+                </div>
+                <form action="" method="get">
+                    <button type="submit">contanct us</button>
+                </form>
+            </li>
+        </ul>
+        <div class="plan_name">Compare plans</div>
+        <table style="font-weight: bolder;" border="1">
+            <tr>
+                <td></td>
+                <td>Free</td>
+                <td>Pro</td>
+                <td>Enterprise</td>
+            </tr>
+            <tr>
+                <td class="name">Public</td>
+                <td><i class="fa fa-check"></i></td>
+                <td><i class="fa fa-check"></i></td>
+                <td><i class="fa fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="name">Private</td>
+                <td></td>
+                <td><i class="fa fa-check"></i></td>
+                <td><i class="fa fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="name">Permissions</td>
+                <td><i class="fa fa-check"></i></td>
+                <td><i class="fa fa-check"></i></td>
+                <td><i class="fa fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="name">Sharing</td>
+                <td></td>
+                <td><i class="fa fa-check"></i></td>
+                <td><i class="fa fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="name">Unlimited memebers</td>
+                <td></td>
+                <td><i class="fa fa-check"></i></td>
+                <td><i class="fa fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="name">Extra security</td>
+                <td></td>
+                <td></td>
+                <td><i class="fa fa-check"></i></td>
+            </tr>
+        </table>
+    </main>
+    <footer>
+        <hr style="margin-top: 50px; border-width:thin;" color="lightgray">
+        <ul class="footer">
+            <li>
+                <div><img src="./resources/images/bootstrap.jpg" alt="bootstrap logo" width="25px"></div>
+                <div class="footer_first">© 2017–2023</div>
+            </li>
+            <li>
+                <div class="footer_name">Features</div>
+                <div class="footer_list">Cool stuff</div>
+                <div class="footer_list">Random feature</div>
+                <div class="footer_list">Team feature</div>
+                <div class="footer_list">Stuff for developers</div>
+                <div class="footer_list">Another one</div>
+                <div class="footer_list">Last time</div>
+            </li>
+            <li>
+                <div class="footer_name">Resources</div>
+                <div class="footer_list">Resource</div>
+                <div class="footer_list">Resource name</div>
+                <div class="footer_list">Another resource</div>
+                <div class="footer_list">Final resource</div>
+            </li>
+            <li>
+                <div class="footer_name">About</div>
+                <div class="footer_list">Team</div>
+                <div class="footer_list">Locations</div>
+                <div class="footer_list">Privacy</div>
+                <div class="footer_list">Terms</div>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
