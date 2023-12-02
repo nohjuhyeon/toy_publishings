@@ -3,6 +3,7 @@
 }
 .headline {
     text-align: center;
+    margin-bottom: 70px;
 }
 
 ul {
@@ -21,4 +22,32 @@ ul {
 a {
     text-decoration-line: none;
     color: black;
+}
+
+.a3 {
+    padding-left: 0px;
+
+}
+.a4 {
+    padding: 5px 0px;
+    border-style: solid;
+    border-radius: 5px 0px 0px 5px ;
+    border-color: gainsboro;
+    border-width: 0.5px;
+    text-align: center; 
+    vertical-align: middle;
+    background-color: whitesmoke;
+    width: 7%;
+}
+
+.a5 {
+    border-radius: 0px auto auto 0px;
+    
+}
+
+.a6 {
+    padding: 0 10%;
+}
+.img1 {
+    margin: 10px;
 }
